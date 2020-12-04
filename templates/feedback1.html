@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SUBMIT</title>
+    </head>
+    <body>
+        <h1>
+            Thank you for sharing Tweet!
+        </h1>
+        <h3>
+           <u> Tweet Analysis: </u>
+        </h3>
+        <img src="{{url_for('static', filename='happy.jpg')}}" style="width:75px; height:75px;" >
+        <p style="font-size: 25px;">
+            Polarity: 1 <br>
+            Positive:
+                {% if positive %}
+                {{positive}}
+                {% endif %}
+            <br>
+            Magnitude: 
+                {% if label %}
+                {{label}}
+                {% endif %}
+        </p>
+    </body>
+</html>
