@@ -9,7 +9,7 @@ It contains 2 python files and 3 templates.
 5. Feedback1.html: This page will be displayed if the input tweet is negative.
 
 
-# Literature Review
+# NLP
 
 Natural Language Processing, or NLP for short, is broadly defined as the automatic manipulation of natural language, like speech and text, by software. 
 Natural Language Processing is the driving force behind the following common applications:
