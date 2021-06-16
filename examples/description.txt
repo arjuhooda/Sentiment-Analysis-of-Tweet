@@ -1,1 +1,0 @@
-This folder contains examples of the website for positive and negative tweets.
