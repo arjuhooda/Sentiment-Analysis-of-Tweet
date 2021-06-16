@@ -2,9 +2,9 @@
 
 This is a flask based python website to analyze the sentiment (Positive/Negative) of a tweet by a model trained using twitter dataset and Naive Bayes algorithm.
 It contains 2 python files and 3 templates.
-1. SentimentalAnalysis.py: This file contains our Twitter Classifier class which we will import in app.py to predict the sentiments.
-2. app.py: In this file, we implemented the flask framework to get the user input tweet on our webpage and perform its analysis. 
-3. Index.html: This is the homepage of our website.
+1. SentimentalAnalysis.py: This file contains Twitter Classifier class that is imported in app.py to predict the sentiments.
+2. app.py: This file contains implementation of flask framework to get the user input tweet on the webpage and perform its analysis. 
+3. Index.html: This is the homepage of the website.
 4. Feedback1.html: This page will be displayed if the input tweet is positive.
 5. Feedback1.html: This page will be displayed if the input tweet is negative.
 
